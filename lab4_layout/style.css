@@ -171,6 +171,18 @@ box img {
 
 /*about*/
 
+#main > p {
+    text-indent: 42px;
+    margin-top: 9px;
+}
+.center {
+    display: block;
+    margin-top: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    width: 50%;
+}
 .about {
     margin-top: 1px;
     margin-right: 0;
@@ -221,14 +233,7 @@ box img {
 .entry .right-img {
 	float: right;
 }
-.center {
-    display: block;
-    margin-top: auto;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: auto;
-    width: 50%;
-}
+
 
 
 /*kontak*/
@@ -267,8 +272,4 @@ box img {
     padding-left: 11px;
     padding-right: 10px;
     padding-top: 9px;
-}
-#main > p {
-    text-indent: 42px;
-    margin-top: 9px;
 }

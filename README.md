@@ -14,13 +14,13 @@ Box element di bawah ini dapat digunakan untuk membuat layout pada sebuah websit
 
 ![enter image description here](https://github.com/antonmartinus72/Lab4Web/raw/main/assets/1_ss.jpg)
 
-Tag html utama yang digunakan adalah `<div>` yang disusun pada satu baris dengan properti`float` pada css. Deklarasi yang digunakan adalah `float:left;` yang berarti box akan disusun ke kanan.
+Tag html utama yang digunakan adalah `<div>` yang disusun pada satu baris dengan properti`float` pada css. Deklarasi yang digunakan adalah `float:left;` yang berarti box akan disusun ke kiri.
 
 ![enter image description here](https://github.com/antonmartinus72/Lab4Web/raw/main/assets/1_code.jpg)
 
 ## 2. Clearfix Element
 
-Box dengan  tag `<div>` dengan atribut `class="div4"` di bawah ini menggunakan properti `clear` dengan value `left` pada html untuk membersihkan elemen yang sebelumnya menggunakan properti `float`.
+Box dengan  tag `<div>` dengan atribut `class="div4"` di bawah ini menggunakan properti `clear` dengan value `left` pada internal css untuk membersihkan elemen yang sebelumnya menggunakan properti `float`.
 
 ![enter image description here](https://github.com/antonmartinus72/Lab4Web/raw/main/assets/2_ss.jpg)
 
@@ -46,7 +46,7 @@ Kode html yang digunakan untuk membentuk kerangka layout di atas.
 
 ![enter image description here](https://github.com/antonmartinus72/Lab4Web/raw/main/assets/3_code.jpg)
 
-Properti CSS pada dasarnya mempunyai value default. Value default ini memberikan nilai awal seperti pada properti `margin`. CSS dibawah ini digunakan untuk mereset value css default untuk memudahkan mengatur layout.
+Properti CSS pada dasarnya mempunyai value default. Value default ini memberikan nilai awal contohnya seperti pada properti `margin`. CSS dibawah ini digunakan untuk mereset value css default untuk memudahkan dalam mengatur layout.
 
 ![enter image description here](https://github.com/antonmartinus72/Lab4Web/raw/main/assets/3_css.jpg)
 
@@ -56,7 +56,7 @@ Navigasi adalah salah satu bentuk layout yang berisi opsi dan link pada website 
 
 ![enter image description here](https://github.com/antonmartinus72/Lab4Web/raw/main/assets/4_ss.jpg)
 
-Navigasi ini dibentuk berurutan menggunakan deklarasi css `display: block;` pada selector `nav` dan `display: block;`  pada selector `nav a`.
+Navigasi ini dibentuk berurutan menggunakan deklarasi css `display: block;` pada selector `nav` dan `display: inline-block;`  pada selector `nav a`.
 
 ![enter image description here](https://github.com/antonmartinus72/Lab4Web/raw/main/assets/4_css.jpg)
 
@@ -97,7 +97,7 @@ Layout main diletakan di sebelah kiri halaman dengan menggunakan deklarasi `floa
 
 ## 7. Sidebar Widget
 
-Sidebar dibawah ini diletakan disamping halaman dan bersebelahan dengan layout main yang berisi informasi tambahan atau link untuk ke halaman lainnya.
+Sidebar dibawah ini diletakan pada samping halaman dan bersebelahan dengan layout main yang berisi informasi tambahan atau link untuk ke halaman lainnya.
 
 ![enter image description here](https://github.com/antonmartinus72/Lab4Web/raw/main/assets/8_ss.jpg)
 
@@ -170,11 +170,11 @@ Navigasi kontak diisi dengan halaman yang memberikan informasi kepada pengunjung
 
 ![enter image description here](https://github.com/antonmartinus72/Lab4Web/raw/main/assets/15_ss.jpg)
 
-Untuk pengisian data seperti nama da email menggunakan tag form pada html dengan `action` langsung ke alamat email pemilik website.
+Untuk pengisian data seperti nama dan email menggunakan tag form pada html dengan atribut `action` sebagai alamat tujuan langsung ke alamat email pemilik website.
 
 ![enter image description here](https://github.com/antonmartinus72/Lab4Web/raw/main/assets/15_code.jpg)
 
-CSS yang digunakan pada css tidak terlalu banyak, hanya menggunakan beberapa properti untuk mengubah posisi input ke sebelah kanan dan membuat tombol submit berwarna biru.
+CSS yang digunakan pada form di atas tidak terlalu banyak, hanya menggunakan beberapa properti untuk mengubah posisi input ke sebelah kanan dan membuat tombol submit berwarna biru.
 
 ![enter image description here](https://github.com/antonmartinus72/Lab4Web/raw/main/assets/15_css.jpg)
 

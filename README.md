@@ -164,7 +164,7 @@ Properti yang sebagian besar digunakan adalah `margin` dan `padding`. Untuk gamb
 
 ![enter image description here](https://github.com/antonmartinus72/Lab4Web/raw/main/assets/14_css.jpg)
 
-## 12. Layout Halaman About
+## 12. Layout Halaman Kontak
 
 Navigasi kontak diisi dengan halaman yang memberikan informasi kepada pengunjung untuk dapat menghubungi pemilik website.
 
